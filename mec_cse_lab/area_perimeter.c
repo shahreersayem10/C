@@ -1,6 +1,31 @@
 #include <stdio.h>
-int main(){
-printf("hello mother fucker");
+int main()
+{
+int length, breadth, area, perimeter;
 
-    return 0;
+    
+    printf("Enter the length of the rectanglur :");
+    
+    scanf("%d", &length);
+    
+
+    
+    printf("Enter the breadth of the rectanglur :");            
+    
+    scanf("%d", &breadth);
+    
+
+    
+    area = length * breadth ;
+    
+    printf("Toral area");
+    printf("%d \n ", area);
+    
+
+    printf("Total perimeter");
+    perimeter = (length + breadth);
+    
+    printf("%d \n", perimeter);
+
+return 0;
 }
